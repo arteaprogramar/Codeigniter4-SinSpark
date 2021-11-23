@@ -115,7 +115,7 @@ Instrucciones
     /writable
     
     
-    # Estructura modificada (Después de sacar index.php y htaccess a raiz)
+    # Estructura modificada (Después de mover index.php y htaccess de public/ a raiz del proyecto)
     /app
     /public
           /favicon.ico
