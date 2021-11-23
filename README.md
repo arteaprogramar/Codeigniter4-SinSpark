@@ -83,7 +83,7 @@ Instrucciones
     Max kernel policy version:      33
 ```
 
-- Si el `SELinux status: enabled`  realizar la siguiente configuración para poder ejecutar `Codeigniter4`
+- Si `SELinux status: enabled`  realizar la siguiente configuración para poder ejecutar `Codeigniter4`
 
 ```sh
   # Dar todos los permisos a todos los usuarios
@@ -100,7 +100,7 @@ Instrucciones
   $ chcon -R -t httpd_sys_rw_content_t Codeigniter4/writable/
 ```
 
-- Modificar estructura de Codeigniter
+- Modificar estructura del proyecto de Codeigniter
 
 ```sh
     # Estructura original (Antes)
@@ -115,7 +115,7 @@ Instrucciones
     /writable
     
     
-    # Estructura original (Después de sacar index.php y htaccess a raiz)
+    # Estructura modificada (Después de sacar index.php y htaccess a raiz)
     /app
     /public
           /favicon.ico
